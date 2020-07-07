@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div.color{
+                width:100px;
+                height:100px;
+                background: seashell;
+                -webkit-animation: myfirst 5s;
+            }
+            @-webkit-keyframes myfirst {
+                from{background:seashell;}
+                to{background: palevioletred;}
+            }
+
+            div.img{
+                width:100px;
+                height:100px;
+                background: seashell;
+                -webkit-animation: mysecond 5s;
+            }
+            @-webkit-keyframes mysecond{
+                from{background: papayawhip;}
+                to{background-image:url("cat.png");}
+            }
+            
+            div.grad{
+                width:100px;
+                height:100px;
+                background:aliceblue;
+                -webkit-animation: mythird 5s;
+            }
+            @-webkit-keyframes mythird{
+                0% {background: aliceblue;}
+                25%{background: bisque;}
+                50%{background: indianred;}
+                100%{background: mediumorchid;}
+            }
+
+            div.rainbow{
+                width: 100px;
+                height: 100px;
+                background: red;
+                -webkit-animation: myrainbow 5s;
+            }
+            @-webkit-keyframes myrainbow{
+                0%{background:red;}
+                17%{background: orange;}
+                34%{background: yellow;}
+                51%{background: greenyellow}
+                68%{background: turquoise;}
+                85%{background:blue;}
+                100%{background: purple;}
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="color"></div>
+        <div class="img"></div>
+        <div class="grad"></div>
+        <div class="rainbow"></div>
+    </body>
+</html>

@@ -1,0 +1,4 @@
+div.rad{border:2px solid;border-radius:25px; width:200px; height:70px; padding:20px 20px;text-align:center;}
+div.shad{margin:10px;padding:10px;width:200px;height:100px;background-color: lightsalmon;box-shadow: 10px 10px 5px #888888;}
+#round{-webkit-border-image: url(cat.png) 10 5 round;}
+#stretch{-webkit-border-image: url(cat.png) 30 30 strech;}
